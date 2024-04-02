@@ -68,7 +68,7 @@ public class RicksyBusiness {
         System.out.println("\nOvni de Abradolph\n" +
                 "=================");
         System.out.println(ufosPark.getUfoOf(abradolph.number()));
-
+/**
         // Mostramos el credito de la tarjeta de Abradolph
         System.out.println("Credito de Abradolph: " + abradolph.credit());
 
@@ -131,7 +131,7 @@ public class RicksyBusiness {
          * Indica el numero de unidades y el coste de cada
          * uno de ellos, que es de 50 EZIs
          */
-
+/**
         CrystalExpender packExpender = new CrystalExpender(3, 50);
 
         // Muestra el total de packs y su precio unidad
@@ -164,7 +164,7 @@ public class RicksyBusiness {
          * y registra (añade) los componentes UfosPark
          * y CrystalDispatcher al receptivo
          */
-
+/**
         Receptivo receptivo = new Receptivo();
         receptivo.registra(packExpender);
         receptivo.registra(ufosPark);
@@ -221,11 +221,12 @@ public class RicksyBusiness {
          */
 
         // tu código aquí
+        /**
     }
-
+/**
     private static void mostrarReserva(CreditCard card, CrystalExpender expender, UfosPark ufos) {
         System.out.println(card);
         System.out.println("Packs: " + expender.stock());
-        System.out.println("Ovni: " + ufos.getUfoOf(card.number()));
+        System.out.println("Ovni: " + ufos.getUfoOf(card.number())); **/
     }
 }
