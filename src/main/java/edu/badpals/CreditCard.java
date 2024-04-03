@@ -13,18 +13,18 @@ public class CreditCard {
     }
 
     boolean pay(double pago){
-        if (this.getCredit() < pago){
-            this.credit = this.getCredit() - pago;
+        if (this.credit() >= pago){
+            this.credit = this.credit() - pago;
             return true;
         }
         return false;
     }
 
-    String getNumber() {
+    String number() {
         return number;
     }
 
-    double getCredit() {
+    double credit() {
         return credit;
     }
 
@@ -35,7 +35,7 @@ public class CreditCard {
     @Override
     public String toString() {
         return "owner: " + this.getOwner() + "\n" +
-                "number: " + this.getNumber() + "\n" +
-                "credit: " + this.getCredit() + "EZI";
+                "number: " + this.number() + "\n" +
+                "credit: " + this.credit() + "EZI";
     }
 }
