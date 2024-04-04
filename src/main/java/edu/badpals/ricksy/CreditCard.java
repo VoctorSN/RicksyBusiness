@@ -1,4 +1,4 @@
-package edu.badpals;
+package edu.badpals.ricksy;
 
 public class CreditCard {
     private final String number;

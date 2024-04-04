@@ -1,5 +1,7 @@
-package edu.badpals;
+package edu.badpals.ricksy;
 
+import edu.badpals.ricksy.CreditCard;
+import edu.badpals.ricksy.CrystalExpender;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

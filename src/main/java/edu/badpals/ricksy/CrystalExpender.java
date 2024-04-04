@@ -1,6 +1,6 @@
-package edu.badpals;
+package edu.badpals.ricksy;
 
-public class CrystalExpender implements GuestDispatcher{
+public class CrystalExpender implements GuestDispatcher {
     private int stock;
     private double itemCost;
     CrystalExpender(int stock, double itemCost){
@@ -21,7 +21,7 @@ public class CrystalExpender implements GuestDispatcher{
         }
     }
 
-    public int stock() {
+    int stock() {
         return stock;
     }
 }

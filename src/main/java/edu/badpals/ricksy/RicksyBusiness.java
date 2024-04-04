@@ -23,7 +23,7 @@
  * en la tarjeta del invitado/a el coste de ambos servicios.
  */
 
-package edu.badpals;
+package edu.badpals.ricksy;
 
 public class RicksyBusiness {
 
