@@ -14,7 +14,7 @@ public class CreditCard {
 
     boolean pay(double pago){
         if (this.credit() >= pago){
-            this.credit = this.credit() - pago;
+            this.credit -= pago;
             return true;
         }
         return false;

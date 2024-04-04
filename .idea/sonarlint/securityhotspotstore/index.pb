@@ -76,3 +76,5 @@ c
 3src/test/java/edu/badpals/ricksy/ReceptivoTest.java,f\f\ff414ed6ad20a6ae51886919520473fb5856847b
 `
 0src/main/java/edu/badpals/ricksy/CreditCard.java,1\d\1df3bb842e595b7fe4556c09958a7ba37dd28db9
+_
+/src/main/java/edu/badpals/ricksy/RickMenus.java,0\f\0ffa310f45f311c4b2531f61b177376261f946d0

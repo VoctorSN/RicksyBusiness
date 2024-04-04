@@ -221,6 +221,15 @@ public class RicksyBusiness {
          */
 
         // tu código aquí
+        RickMenus rickmenu = new RickMenus(100,10);
+        rickmenu.dispatch(abradolph);
+        rickmenu.dispatch(squanchy);
+        rickmenu.dispatch(morty);
+        rickmenu.dispatch(birdpearson);
+        System.out.println("\nPedidos de RickMenus:\n=====================");
+        System.out.println(rickmenu.obtenerNombresClientes());
+        System.out.println("\nCreditos de los invitados/as:\n=============================");
+        System.out.println(rickmenu);
 
     }
 
